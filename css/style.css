@@ -1,0 +1,367 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .pimg4, .pimg2, .pimg3, .pimg5{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+
+  .pimg1 {
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
+  
+  .pimg5{
+    background-image:url('../res/orig.jpg');
+    min-height:100%;
+  }
+
+  .pimg1{
+    background-image:url('../res/800.png');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('../res/18.jpg');
+    min-height:400px;
+  }
+  
+  .pimg3{
+    background-image:url('../res/7.jpg');
+    min-height:400px;
+  }
+
+  .pimg4{
+    background-image:url('../res/100.jpg');
+    min-height:400px;
+  }
+
+  .section{
+    text-align:center;
+    padding:30px 80px;
+  }
+
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  .section-dark{
+    background-color:lightgray;
+    color:#ddd;
+    height:540px;
+  }
+  .section-dark1{
+    background-color:lightgray;
+    color:#ddd;
+    height:450px;
+  }
+  .section-dark2{
+    background-color:lightgray;
+    color:#ddd;
+    height:520px;
+  }
+  .section-dark3{
+    background-color:lightgray;
+    color:#ddd;
+    height:460px;
+  }
+  .footer{
+    background-color:white;
+    color:black;
+    height:100px;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
+  
+.navbar {
+  color:white;
+}
+@font-face{
+  font-family: "bbn";
+  src: url("../font/BebasNeue-Regular.ttf")
+}
+#emna {
+  padding-top:35px;
+  padding-right:25px;
+  color:rgb(47, 50, 56);
+  font-family:'bbn';
+  font-size:20px ;
+  font-weight:bold;
+  letter-spacing: 1px;
+}
+#emna:hover {
+  color:rgb(28, 107, 162);
+  font-weight:bold;
+  text-shadow: rgb(28, 107, 162);
+  padding-right: 28px;
+  padding-left:28px;
+  
+}
+.logo {
+  height:80px;
+}
+.navbar-brand {
+  padding-top: 2px;
+  padding-left: 0 !important ;
+}
+#mainNav {
+  height:90px;
+  background-color:white;
+  font-family: "bbn";
+}
+.ktiba {
+  color:white;
+  font-size:60px;
+  padding-top:15px;
+  padding-bottom:10px;
+  padding-left:60px;
+}
+.motivation {
+  font-size:20px;
+  padding-top:10px;
+  text-align:center;
+}
+.music {
+  width: 330px;
+  border-radius: 8px;
+  background-color: rgba(0,0,0,0);
+  background: none;
+  border: 3px solid #FFFF00;
+  font-size: 1em;
+  color: #FFFF00;
+  font-family: "hp";
+  position: relative;
+  left: 62px;
+  margin-top:20px;
+}
+.haha {
+  padding-top:8px;
+  padding-bottom:8px;
+}
+.oumaima1 {
+  font-size:20px;
+  padding-top:10px;
+  text-align:center;
+  font-family: "hp";
+  letter-spacing:8px;
+  text-transform:uppercase;
+  color:#5C6BC0;
+}
+.oumaima2 {
+  font-size:40px;
+  padding-top:10px;
+  text-align:center;
+  font-family: "hp";
+  text-transform:uppercase;
+  color:#FFC400;
+}
+.oumaima3 {
+  font-size:30px;
+  padding-top:10px;
+  text-align:center;
+  font-family: "hp";
+  word-spacing:4px;
+  letter-spacing:4px;
+  color:#5C6BC0;
+  
+}
+.oumaima4 {
+  font-size:15px;
+  padding-top:10px;
+  text-align:center;
+  font-family: "hp";
+  letter-spacing:6px;
+  text-transform:uppercase;
+  color:#7986CB;
+}
+.oumaima1, .oumaima2, .oumaima3, .oumaima4 {
+  padding-bottom:10px;
+}
+.projects img {
+  box-shadow: 0 2px 2px rgb(33, 150, 243);
+  padding-left:0% !important;
+  padding-right:0% !important;
+  border-radius: 50%;
+  height:78%;
+  width:78%;
+}
+.projects img:hover {
+  cursor: pointer;
+  box-shadow:none;
+}
+.bcd {
+  margin-bottom:3%;
+}
+.projects {
+  margin-left:9%;
+  
+}
+.comptes {
+  color: rgb(33, 150, 243);
+  margin-top: -5%;
+  position:relative ; 
+  right:36px;
+}
+.comptes2 {
+  color: rgb(33, 150, 243);
+  margin-top: -5%;
+  position:relative ; 
+  right:23px;
+}
+.comptes3 {
+  color: rgb(33, 150, 243);
+  margin-top: -5%;
+  position:relative ; 
+  right:17px;
+}
+.comptes i {
+  padding-left:5px;
+}
+.comptes2 i {
+  padding-left:5px;
+}
+.comptes3 i {
+  padding-left:5px;
+}
+.comptes i:hover {
+  color:rgb(102, 102, 102);
+}
+.comptes2 i:hover {
+  color:rgb(102, 102, 102);
+}
+.comptes3 i:hover {
+  color:rgb(102, 102, 102);
+}
+.name {
+  font-family: "hp";
+  font-weight: bold;
+  text-align: center;
+  font-size:180%;
+  padding-top:3%;
+  padding-bottom:2%;
+  margin: 0px !important;
+  color:black;
+}
+.function {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 150%;
+  color: rgb(102, 102, 102);
+  padding-bottom:100px;
+}
+.fuckit {
+  font-size:20px;
+  padding-top:35px;
+  text-align:left;
+  font-family: "hp";
+  letter-spacing:9px;
+  text-transform:uppercase;
+  color:#5C6BC0;
+}
+.fuckit1 {
+  font-size:30px;
+  padding-top:40px;
+  text-align:left;
+  font-family: "hp";
+  word-spacing:4px;
+  letter-spacing:4px;
+  color:#536DFE;
+}
+.fuckit2 {
+  font-size:25px;
+  padding-top:40px;
+  text-align:left;
+  font-family: "hp";
+  letter-spacing:6px;
+  text-transform:uppercase;
+  color:#546E7A;
+}
+.conseils {
+  padding-left:1.5%;
+}
+.end {
+  color:#5C6BC0;
+  padding-top:1%;
+  font-family: "hp";
+  font-size:20px;
+  display:inline-block;
+}
+.n {
+  padding-left:6px;
+}
+.hayaa {
+  position:right;
+  font-size:40px;
+}
+.abc {
+  font-size:20px;
+  padding-top:20px;
+  padding-bottom:45px;
+  text-align:left;
+  font-family: "hp";
+  letter-spacing:6px;
+  text-transform:uppercase;
+  color:#5C6BC0;
+}
+.fadit {
+  text-align:center;
+  font-family: "bbn";
+  font-size:35px;
+  padding-top:5px;
+  color:#5C6BC0;
+  letter-spacing:10px;
+  text-transform:uppercase;
+}
+
+
+
+
+
+
+
+  
+
+  

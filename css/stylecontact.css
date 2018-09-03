@@ -1,0 +1,82 @@
+@font-face{
+    font-family: "bbn";
+    src: url("../font/BebasNeue-Regular.ttf")
+  }
+
+@font-face{
+    font-family: "hp";
+    src: url("../font/HappyTime.ttf")
+  }
+
+.form-element{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+input, textarea{
+    width: 350px;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    font-family: 'bbn';
+    padding-left: 10px;
+    color: #444;
+}
+.bouton {
+    width: 350px;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0);
+    background: none;
+    border: 3px solid #444;;
+    font-size: 2em;
+    color: #444;;
+    font-family: "hp";
+}
+.bouton:hover {
+    background-color:#444;;
+    color: #fff !important;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+label {
+    margin:-1px;
+    color: #444;
+    font-family: 'bbn';
+    font-size: 2em;
+}
+input::placeholder {
+    color: #bbb;
+    font-size: .85em;
+}
+h2 {
+    text-align: center;
+    font-size:4em;
+    margin-top:0 !important; 
+    padding-top: 6%;  
+    padding-bottom: 3%; 
+}
+.titre { color:#303F9F; 
+    font-family: "bbn";
+}
+.titre span { color: white;
+    font-family: "hp";  
+    letter-spacing: -4px;
+}
+.titre, .titre span {
+  text-align: center;
+  font-size: 60px;
+}
+.container1 {
+    /*background-color: #90A4AE;*/
+    margin-left:2%;
+    margin-right:2%;
+}
+#contactForm {
+    padding-left:162px;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+
+
